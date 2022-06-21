@@ -1,0 +1,25 @@
+{
+    "name": "在中国大陆不翻墙使用ReCAPTCHA",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "在中国大陆不翻墙使用ReCAPTCHA",
+    "author": "heipiao",
+    "icons": {
+        "128": "icons/icon128x128.jpg"
+    },
+    "permissions": [
+      "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "declarative_net_request" : {
+        "rule_resources" : [
+            {
+                "id": "main",
+                "enabled": true,
+                "path": "main.json"
+            }
+        ]
+    }
+}
