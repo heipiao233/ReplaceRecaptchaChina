@@ -1,6 +1,6 @@
 {
     "name": "__MSG_name__",
-    "version": "0.0.0.1",
+    "version": "0.0.0.2",
     "manifest_version": 3,
     "description": "在中国大陆不翻墙使用ReCAPTCHA",
     "author": "heipiao",
